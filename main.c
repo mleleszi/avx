@@ -2,9 +2,9 @@
 #include <immintrin.h>
 
 #define HEADER_SIZE 54
-#define SPACE_1_SIZE 1080054                   // 600x600x3 + 54 bit header
-#define SPACE_2_SIZE 4320054                   // 1200x1200x3 + 54 bit header
-#define SPACE_2_VERTICALLY_SCALED_SIZE 2160054 // 1200x600x3 + 54 bit header
+#define SPACE_1_SIZE 1080054                   // 600x600x3 + 54 byte header
+#define SPACE_2_SIZE 4320054                   // 1200x1200x3 + 54 byte header
+#define SPACE_2_VERTICALLY_SCALED_SIZE 2160054 // 1200x600x3 + 54 byte header
 
 int main()
 {
