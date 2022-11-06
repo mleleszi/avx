@@ -29,7 +29,7 @@ int main()
     int i, j, k = HEADER_SIZE;
     for (i = HEADER_SIZE; i < SPACE_2_SIZE; i += 7200) // iterate through rows, 2 at a time -> 1200x3x2
     {
-        // iterate trough 32 bit ints
+        // iterate through 8 bit ints, 32 at a time
         for (j = i; j < i + 3584; j += 32, k += 32)
         {
             // take average of two rows
