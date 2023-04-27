@@ -1,2 +1,2 @@
-# Korszerű Információs Rendszerek beadandó
+# avx image processing
 
